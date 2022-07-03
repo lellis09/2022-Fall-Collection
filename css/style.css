@@ -1,0 +1,119 @@
+/* Box Model Hack */
+* {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    color: white;
+}
+
+/* Clear fix hack */
+/* .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+} */
+
+/* .clear {
+   clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+    /* background-image: url(../assets/donnie-rosie-taO2fC7sxDU-unsplash.jpg); */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url('../assets/donnie-rosie-taO2fC7sxDU-unsplash.jpg');
+    /* background-repeat: repeat-y; */
+     background-size:100%;
+    /* opacity: 0.5; */
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    /* margin:80% 0 15% 0; */
+}
+main {
+    display:flex;
+    /* border: 2px solid yellow; */
+    height: 850px;
+}
+section{
+    /* display: flex; */
+    /* border: 1px solid green; */
+    /* flex-grow: 2; */
+    width: 100%;
+    
+    
+}
+.img-container{
+    
+    /* justify-content: center; */
+    width: 50%;
+    height:500px;
+    /* border: 1px solid fuchsia; */
+    margin: 20% 0 0 25%;
+    border-radius: 10px;
+    /* border: 3px solid magenta; */
+    /* margin-left: 30%;
+    margin-top: 20%; */
+   
+}
+p{
+    font-size: 25px;
+}
+img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* display: block; */
+}
+
+
+
+.hidden{
+    /* align-self: flex-end;  */
+     /* margin: 0 25% 0 0 */
+    /* border: 1px solid firebrick; */
+    height: 100px;
+    padding: 20px;
+    margin: 0 0 100% 0;
+    text-align: center;
+    display:none;
+    
+    
+    
+}
+
+
+
+img:hover {
+    box-shadow: 20px 5px 30px rgba(187, 92, 2, 0.815)
+    
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
